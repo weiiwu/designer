@@ -1,8 +1,8 @@
-$primary-color: #86a697;
-$secondary-color: #55295b;
+$primary-color: #426579;
+$secondary-color: #a2d7dd;
 $show-home-image: true;
 $home-image: url(../img/background.jpg);
-$background-opacity: 0.5;
+$background-opacity: 0.8;
 
 @mixin easeOut {
   transition: all 0.5s ease-out;
@@ -33,9 +33,9 @@ $background-opacity: 0.5;
 // Set Text color
 @function set-text-color($color) {
   @if (lightness($color) > 40) {
-    @return #fff;
-  } @else {
     @return #000;
+  } @else {
+    @return #dcdddd;
   }
 }
 
