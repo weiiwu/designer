@@ -3,12 +3,15 @@
   "version": "1.0.0",
   "description": "website test",
   "main": "index.js",
+  "homepage": "https://weiiwu.github.io/designer",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --rescursive"
+    "sass": "node-sass -w scss/ -o dist/css/ --rescursive",
+    "deploy": "gh-pages -d dist"
   },
   "author": "Straya",
   "license": "MIT",
   "dependencies": {
+    "gh-pages": "^1.2.0",
     "node-sass": "^4.9.2"
   }
 }
